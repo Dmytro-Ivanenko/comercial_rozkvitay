@@ -4,8 +4,8 @@
   "source": "src/index.html",
   "browserslist": "> 0.2%, last 4 versions, not dead",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /comercial_rozkvitay/"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
