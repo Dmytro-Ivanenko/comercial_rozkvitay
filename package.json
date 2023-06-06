@@ -1,11 +1,11 @@
 {
   "name": "rozkvitay",
-  "homepage": "https://Dmytro-Ivanenko.github.io/comercial_rozkvitay/",
+  "homepage": "https://Dmytro-Ivanenko.github.io/commercial_rozkvitay/",
   "source": "src/index.html",
   "browserslist": "> 0.2%, last 4 versions, not dead",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /comercial_rozkvitay/"
+    "build": "parcel build src/*.html --public-url /commercial_rozkvitay/"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
