@@ -55,7 +55,6 @@ const handleSubmit = async event => {
   }
 
   // order feedback
-
   form.reset();
 
   spinner.classList.toggle('disabled');
